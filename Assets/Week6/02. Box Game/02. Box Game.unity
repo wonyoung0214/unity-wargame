@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4366757, g: 0.48427194, b: 0.5645252, a: 1}
+  m_IndirectSpecularColor: {r: 0.172768, g: 0.21589169, b: 0.29782546, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -153,11 +153,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   agentCount: 100
-  agentPrefab: {fileID: 3159783540669270961, guid: ff19bf621be49754da740e4432d26fc6, type: 3}
+  agentPrefab: {fileID: 3159783540669270961, guid: ff19bf621be49754da740e4432d26fc6,
+    type: 3}
   goal: {fileID: 385508925}
   population: []
-  maxBehaviors: 10
-  waitSeconds: 1
+  maxBehaviors: 40
+  waitSeconds: 0.25
   generationTimeout: 0
 --- !u!4 &114561939
 Transform:

@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Networking.unity
-    guid: 0ea8978c20e107242b13db17443b6f07
+    path: Assets/Wargame/Scenes/Game.unity
+    guid: 6435672b0efbfd648a356ff69eb9dad5
+  - enabled: 1
+    path: Assets/Wargame/Scenes/MainMenu.unity
+    guid: cc6ef6dfdccc93548903e5dc7558a4ee
   m_configObjects: {}
